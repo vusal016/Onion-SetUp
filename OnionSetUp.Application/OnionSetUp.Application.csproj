@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="16.1.1" />
+		<PackageReference Include="FluentValidation" Version="12.1.1" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\OnionSetUp.Domain\OnionSetUp.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Common\Dtos\ServiceDtos\" />
+		<Folder Include="Services\Concretes\" />
+	</ItemGroup>
+
+</Project>

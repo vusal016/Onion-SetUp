@@ -1,0 +1,12 @@
+﻿global using OnionSetUp.Persistence.Data;
+global using OnionSetUp.Persistence;
+global using OnionSetUp.Application;
+global using OnionSetUp.Application.Common.Response;
+global using OnionSetUp.Domain.Common;
+global using Microsoft.AspNetCore.Diagnostics;
+global using OnionSetUp.Infrastructure;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using OnionSetUp.Application.Common.Identity;
+global using OnionSetUp.Application.Services.Abstractions;
+global using System.Security.Claims;

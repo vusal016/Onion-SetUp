@@ -1,0 +1,9 @@
+﻿global using FluentValidation;
+global using Microsoft.EntityFrameworkCore;
+global using OnionSetUp.Domain.Models;
+global using Microsoft.Extensions.DependencyInjection;  
+global using AutoMapper;
+global using OnionSetUp.Application.Common.Mapper;
+global using Microsoft.AspNetCore.Http;
+global using OnionSetUp.Application.Common.Constants;   
+global using OnionSetUp.Application.Common.Identity;

@@ -1,0 +1,739 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.infrastructure\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|solutionrelative:onionsetup.infrastructure\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|solutionrelative:onionsetup.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|solutionrelative:onionsetup.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|solutionrelative:onionsetup.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.infrastructure\\identity\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|solutionrelative:onionsetup.infrastructure\\identity\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.infrastructure\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|solutionrelative:onionsetup.infrastructure\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\configurations\\appuserconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\configurations\\appuserconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\interceptors\\interceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\interceptors\\interceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\data\\dataintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\data\\dataintializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\dtos\\identitydtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\dtos\\identitydtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\services\\abstractions\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\services\\abstractions\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|solutionrelative:onionsetup.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.infrastructure\\services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|solutionrelative:onionsetup.infrastructure\\services\\filestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|solutionrelative:onionsetup.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|solutionrelative:onionsetup.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.webapi\\onionsetup.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|solutionrelative:onionsetup.webapi\\onionsetup.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\validations\\appuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\validations\\appuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\common\\auditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\common\\auditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\common\\isoftdeletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\common\\isoftdeletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\exceptions\\conflictexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\common\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\common\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.webapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D40C01-D395-4AA3-A2FA-0B9ECEC1B93C}|OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj|solutionrelative:onionsetup.webapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\onionsetup.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\onionsetup.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\onionsetup.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\onionsetup.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\onionsetup.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\onionsetup.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.infrastructure\\onionsetup.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0BA52A1F-BA4E-4CBD-B908-89A135D82489}|OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj|solutionrelative:onionsetup.infrastructure\\onionsetup.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\dtos\\identitydtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\dtos\\identitydtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\dtos\\identitydtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\dtos\\identitydtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\constants\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\constants\\filepaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\constants\\filepaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\interfaces\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\interfaces\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.application\\common\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB77959-DD2A-48D0-9313-BBD3F44E622E}|OnionSetUp.Application\\OnionSetUp.Application.csproj|solutionrelative:onionsetup.application\\common\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.domain\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD569995-5842-48F9-A6DD-2A3813C45067}|OnionSetUp.Domain\\OnionSetUp.Domain.csproj|solutionrelative:onionsetup.domain\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|c:\\users\\user\\onedrive\\desktop\\specials\\onionsetup\\onionsetup.persistance\\migrations\\20260703190045_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE44E7E8-3FD2-4826-A8DF-6AE44C96915F}|OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj|solutionrelative:onionsetup.persistance\\migrations\\20260703190045_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 344,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\Services\\IdentityService.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Infrastructure\\Services\\IdentityService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\Services\\IdentityService.cs",
+              "RelativeToolTip": "OnionSetUp.Infrastructure\\Services\\IdentityService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwDoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:53:49.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "OnionSetUp.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T18:38:37.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Models\\AppUser.cs",
+              "RelativeToolTip": "OnionSetUp.Domain\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:53:38.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\DependencyInjection.cs",
+              "RelativeToolTip": "OnionSetUp.Persistance\\DependencyInjection.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T19:53:57.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "OnionSetUp.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\appsettings.json",
+              "RelativeToolTip": "OnionSetUp.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T19:49:22.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "OnionSetUp.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T17:40:54.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Response\\Response.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Response\\Response.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Response\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T18:37:04.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\Identity\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Infrastructure\\Identity\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\Identity\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "OnionSetUp.Infrastructure\\Identity\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T14:03:15.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Infrastructure\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\GlobalUsings.cs",
+              "RelativeToolTip": "OnionSetUp.Infrastructure\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T14:32:00.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppUserConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Configurations\\AppUserConfigurations.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\Configurations\\AppUserConfigurations.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Configurations\\AppUserConfigurations.cs",
+              "RelativeToolTip": "OnionSetUp.Persistance\\Configurations\\AppUserConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T17:12:56.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "OnionSetUp.Persistance\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:40:14.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Interceptor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Interceptors\\Interceptor.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\Interceptors\\Interceptor.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Interceptors\\Interceptor.cs",
+              "RelativeToolTip": "OnionSetUp.Persistance\\Interceptors\\Interceptor.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T11:59:37.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataIntializer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Data\\DataIntializer.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\Data\\DataIntializer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Data\\DataIntializer.cs",
+              "RelativeToolTip": "OnionSetUp.Persistance\\Data\\DataIntializer.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAjwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:29:51.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\RegisterRequestDto.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:17:00.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IIdentityService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Services\\Abstractions\\IIdentityService.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Services\\Abstractions\\IIdentityService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Services\\Abstractions\\IIdentityService.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Services\\Abstractions\\IIdentityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:43:13.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Program.cs",
+              "RelativeToolTip": "OnionSetUp.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:33:22.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:35:26.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\Services\\FileStorageService.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Infrastructure\\Services\\FileStorageService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\Services\\FileStorageService.cs",
+              "RelativeToolTip": "OnionSetUp.Infrastructure\\Services\\FileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T19:09:16.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OnionSetUp.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T20:42:11.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OnionSetUp.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OnionSetUp.WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T16:22:41.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppUserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Validations\\AppUserValidator.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Validations\\AppUserValidator.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Validations\\AppUserValidator.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Validations\\AppUserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T18:54:06.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuditEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\AuditEntity.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\Common\\AuditEntity.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\AuditEntity.cs",
+              "RelativeToolTip": "OnionSetUp.Domain\\Common\\AuditEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T17:39:17.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISoftDeletable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\ISoftDeletable.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\Common\\ISoftDeletable.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\ISoftDeletable.cs",
+              "RelativeToolTip": "OnionSetUp.Domain\\Common\\ISoftDeletable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T13:04:01.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "OnionSetUp.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T17:21:44.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OnionSetUp.WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj",
+              "RelativeDocumentMoniker": "OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj",
+              "RelativeToolTip": "OnionSetUp.WebAPI\\OnionSetUp.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-21T16:27:22.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ConflictException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Exceptions\\ConflictException.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\Exceptions\\ConflictException.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Exceptions\\ConflictException.cs",
+              "RelativeToolTip": "OnionSetUp.Domain\\Exceptions\\ConflictException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T19:49:46.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\BaseException.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\Common\\BaseException.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\Common\\BaseException.cs",
+              "RelativeToolTip": "OnionSetUp.Domain\\Common\\BaseException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T19:25:22.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260703190045_Mig1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Migrations\\20260703190045_Mig1.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\Migrations\\20260703190045_Mig1.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\Migrations\\20260703190045_Mig1.cs",
+              "RelativeToolTip": "OnionSetUp.Persistance\\Migrations\\20260703190045_Mig1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T19:00:46.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.WebAPI\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.WebAPI\\GlobalUsings.cs",
+              "RelativeToolTip": "OnionSetUp.WebAPI\\GlobalUsings.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:38:55.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OnionSetUp.Persistence.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj",
+              "RelativeToolTip": "OnionSetUp.Persistance\\OnionSetUp.Persistence.csproj",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-21T16:25:20.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OnionSetUp.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\OnionSetUp.Application.csproj",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\OnionSetUp.Application.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\OnionSetUp.Application.csproj",
+              "RelativeToolTip": "OnionSetUp.Application\\OnionSetUp.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-21T16:07:31.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OnionSetUp.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\OnionSetUp.Domain.csproj",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\OnionSetUp.Domain.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\OnionSetUp.Domain.csproj",
+              "RelativeToolTip": "OnionSetUp.Domain\\OnionSetUp.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-20T17:17:48.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OnionSetUp.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj",
+              "RelativeToolTip": "OnionSetUp.Infrastructure\\OnionSetUp.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-28T14:31:45.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\AuthResponseDto.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:21:29.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\GlobalUsings.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T16:21:32.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\LoginRequestDto.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Dtos\\IdentityDtos\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:20:17.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Persistance\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Persistance\\GlobalUsings.cs",
+              "RelativeToolTip": "OnionSetUp.Persistance\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T16:57:09.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Constants\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Constants\\ErrorMessages.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Constants\\ErrorMessages.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Constants\\ErrorMessages.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:27:36.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FilePaths.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Constants\\FilePaths.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Constants\\FilePaths.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Constants\\FilePaths.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Constants\\FilePaths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T17:16:45.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T15:54:33.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Interfaces\\IFileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T17:38:20.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "RelativeToolTip": "OnionSetUp.Application\\Common\\Interfaces\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:47:06.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "OnionSetUp.Domain\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SPECIALS\\OnionSetUp\\OnionSetUp.Domain\\GlobalUsings.cs",
+              "RelativeToolTip": "OnionSetUp.Domain\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T16:22:16.101Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 56,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

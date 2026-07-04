@@ -1,0 +1,17 @@
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\bin\Debug\net9.0\OnionSetUp.Infrastructure.deps.json
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\bin\Debug\net9.0\OnionSetUp.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\bin\Debug\net9.0\OnionSetUp.Infrastructure.pdb
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\bin\Debug\net9.0\OnionSetUp.Application.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\bin\Debug\net9.0\OnionSetUp.Domain.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\bin\Debug\net9.0\OnionSetUp.Application.pdb
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\bin\Debug\net9.0\OnionSetUp.Domain.pdb
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSetUp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSetUp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSetUp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSetUp.Infrastructure.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSetUp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSet.C6BAA498.Up2Date
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSetUp.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\refint\OnionSetUp.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\OnionSetUp.Infrastructure.pdb
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Infrastructure\obj\Debug\net9.0\ref\OnionSetUp.Infrastructure.dll

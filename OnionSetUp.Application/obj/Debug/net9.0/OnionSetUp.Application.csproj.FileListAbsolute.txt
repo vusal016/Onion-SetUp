@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\bin\Debug\net9.0\OnionSetUp.Application.deps.json
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\bin\Debug\net9.0\OnionSetUp.Application.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\bin\Debug\net9.0\OnionSetUp.Application.pdb
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\bin\Debug\net9.0\OnionSetUp.Domain.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\bin\Debug\net9.0\OnionSetUp.Domain.pdb
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSetUp.Application.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSetUp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSetUp.Application.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSetUp.Application.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSetUp.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSet.0110032D.Up2Date
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSetUp.Application.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\refint\OnionSetUp.Application.dll
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\OnionSetUp.Application.pdb
+C:\Users\User\OneDrive\Desktop\SPECIALS\OnionSetUp\OnionSetUp.Application\obj\Debug\net9.0\ref\OnionSetUp.Application.dll
