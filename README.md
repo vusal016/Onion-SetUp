@@ -1,83 +1,187 @@
-# OnionSetUp
+# 🧅 OnionSetUp
 
-A clean, reusable **ASP.NET Core Web API boilerplate** built on **Onion Architecture** with .NET 9. Designed as a production-ready starting point for backend projects — authentication, soft delete, auditing, global error handling, and admin user management work out of the box.
+A production-oriented **ASP.NET Core (.NET 9) Web API boilerplate** built on **Onion Architecture** — JWT authentication, role-based authorization, automatic soft-delete & auditing, self-service profile management and file uploads work out of the box, so every new project starts from decisions already made.
 
-## Tech Stack
+![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-Web%20API-512BD4)
+![EF Core](https://img.shields.io/badge/EF%20Core-9.0-6C3483)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-LocalDB-CC2927?logo=microsoftsqlserver&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT%20Bearer-F7B93E)
+![License](https://img.shields.io/badge/License-MIT-2ea44f)
 
-- **.NET 9** / ASP.NET Core Web API
-- **Entity Framework Core** + SQL Server
-- **ASP.NET Core Identity** (custom `AppUser`, `IdentityRole<Guid>`, Guid keys)
-- **JWT Bearer Authentication** (stateless)
-- **FluentValidation** — request validation
-- **AutoMapper** — entity ↔ DTO mapping
-- **Scalar** — interactive API documentation
+---
 
-## Architecture
+## 📑 Table of Contents
 
-The solution follows the Onion Architecture dependency rule — all dependencies point inward toward the Domain:
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Solution Structure](#-solution-structure)
+- [Key Design Decisions](#-key-design-decisions)
+- [API Endpoints](#-api-endpoints)
+- [Getting Started](#-getting-started)
+- [Default Accounts & Policies](#-default-accounts--policies)
+- [Roadmap](#-roadmap)
+- [License](#-license)
+- [Author](#-author)
+
+---
+
+## 📖 Overview
+
+`OnionSetUp` is a reference backend template designed to be **cloned, run and extended**. The goal is not just a working REST API — it is a foundation where the expensive part of every new project (architecture decisions) has already been made once, deliberately:
+
+- Dependencies flow strictly **inward** — the Domain layer depends on nothing.
+- Cross-cutting concerns (soft delete, auditing) live in **one interceptor**, not scattered across services.
+- Errors are **designed**: every domain exception carries its own HTTP status code.
+- Entities protect their own invariants — no anemic models with public setters.
+
+---
+
+## ✨ Features
+
+- 🔐 **JWT Bearer authentication** — `Sub` / `Email` / `Name` / `Jti` + role claims, HMAC-SHA256, strict expiry (`ClockSkew = Zero`)
+- 🛡 **Lockout-aware login** — failed-attempt counter, automatic account lockout (5 attempts / 5 min)
+- 👤 **Self-service profile module** — view profile, update name, change password, upload / reset avatar (identity taken from JWT claims, never from the route)
+- 🧑‍💼 **Admin user management** — list users with roles (single-query join projection), change role, soft delete — locked behind `[Authorize(Roles = "Admin")]`
+- 🗑 **Automatic soft delete + auditing** — a single `SaveChangesInterceptor` converts hard deletes to `IsDeleted = true` and stamps `CreatedAt` / `ModifiedAt`
+- 🕳 **Global query filter** — soft-deleted rows are invisible to every LINQ query, no manual `Where` needed
+- 🚨 **Self-describing exception hierarchy** — `BaseException(message, statusCode)`: `ConflictException` = 409, `NotExistException` = 404, `BadRequestException` = 400 — translated by one global middleware
+- 📦 **Unified `Response<T>` envelope** — every endpoint returns the same JSON shape (`data`, `isSuccess`, `statusCode`, `errors`)
+- 🖼 **Validated file storage** — extension whitelist, 5 MB limit, GUID file names under `wwwroot/uploads/`
+- ⚙️ **Clone → run** — automatic migration + idempotent seeding (roles & admin) on startup
+- 🧾 **Modern C# throughout** — record DTOs, primary constructors, `GlobalUsings`, nullable reference types
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | ASP.NET Core Web API (.NET 9) |
+| Data Access | Entity Framework Core 9 · SQL Server (LocalDB) |
+| Identity & Auth | ASP.NET Core Identity (`IdentityUser<Guid>` / `IdentityRole<Guid>`) · JWT Bearer |
+| Mapping | AutoMapper (construction-time mapping for records) |
+| Validation | FluentValidation (registered; pipeline integration on roadmap) |
+| API Docs | .NET 9 native OpenAPI (`/openapi/v1.json`, Development only) |
+
+---
+
+## 🏛 Architecture
+
+Classic **Onion Architecture** across five projects — all dependencies point inward, and the solution folders themselves mirror the layers (`src/Core`, `src/Infrastructure`, `src/Presentation`):
 
 ```
-src/
-├── Core/
-│   ├── OnionSetUp.Domain          # Entities, domain rules — depends on nothing
-│   └── OnionSetUp.Application    # DTOs, interfaces, validation, business abstractions
-├── Infrastructure/
-│   ├── OnionSetUp.Persistence    # DbContext, migrations, interceptors, seeding
-│   └── OnionSetUp.Infrastructure # Identity/JWT services, file storage
-└── Presentation/
-    └── OnionSetUp.WebAPI         # Controllers, middleware, startup extensions
+WebAPI  →  Infrastructure / Persistence  →  Application  →  Domain
 ```
 
-Each layer registers its own services through a `DependencyInjection` extension method, keeping `Program.cs` minimal:
+**Architectural principles applied:**
 
-```csharp
-builder.Services.AddApplication();
-builder.Services.AddPersistence(builder.Configuration);
-builder.Services.AddInfrastructure(builder.Configuration);
+- Dependency Inversion — the Application layer talks to the database only through the `IAppDbContext` abstraction; it has zero knowledge of EF Core
+- Separation of Concerns — each layer owns its own DI registration (`AddApplication()`, `AddInfrastructure()`, `AddPersistence()`)
+- Rich domain model — invariants enforced inside entities, not in services
+- Centralized cross-cutting concerns — auditing, soft delete and error handling each live in exactly one place
+
+---
+
+## 🧩 Solution Structure
+
+```
+OnionSetUp/
+├── src/
+│   ├── Core/
+│   │   ├── OnionSetUp.Domain            # Entities, BaseEntity/AuditEntity, ISoftDeletable, BaseException family
+│   │   └── OnionSetUp.Application       # DTOs (records), service abstractions, IAppDbContext,
+│   │                                    # AutoMapper profile, validators, Response<T>, constants
+│   ├── Infrastructure/
+│   │   ├── OnionSetUp.Infrastructure    # IdentityService, UserService, ProfileService,
+│   │   │                                # FileStorageService, JWT generation & bearer setup
+│   │   └── OnionSetUp.Persistence       # AppDbContext, entity configurations, migrations,
+│   │                                    # SaveChangesInterceptor, DataInitializer (seed)
+│   └── Presentation/
+│       └── OnionSetUp.WebAPI            # Controllers, GlobalExceptionMiddleware, Program.cs
+└── OnionSetUp.sln
 ```
 
-## Features
+---
 
-### Authentication & Authorization
-- Register / Login / Logout / Me endpoints backed by an `IIdentityService` abstraction
-- JWT generation with role claims — works directly with `[Authorize(Roles = "...")]`
-- **Account lockout** on repeated failed logins (`AccessFailedCount` + configurable lockout window)
-- Role-based admin endpoints separated under `api/admin/*`
+## 🎯 Key Design Decisions
 
-### Data Layer
-- **`IAppDbContext` abstraction** — the Application layer talks to EF Core through an interface, no repository boilerplate
-- **SaveChanges interceptor** handling two cross-cutting concerns in one pass:
-  - **Soft Delete** — any entity implementing `ISoftDeletable` is never physically removed; `Delete` is converted to `IsDeleted = true` + `DeletedAt`, and global query filters hide deleted rows automatically
-  - **Auditing** — `CreatedAt` / `ModifiedAt` are set automatically for audit entities
-- **DDD-style entities** — private setters, invariants enforced through constructor and behavior methods (e.g. `AppUser.UpdateFullName`)
-- **Auto migration + data seeding** on startup (`DataInitializer`): applies pending migrations, seeds roles (`Admin`, `Student`, `Teacher`) and a default admin user
+**Soft delete + audit in one pass.** A single EF Core `SaveChangesInterceptor` walks the change tracker on every save: entities implementing `ISoftDeletable` have their `Deleted` state flipped to `Modified` with `IsDeleted = true` / `DeletedAt` set, and every `AuditEntity` gets `CreatedAt` / `ModifiedAt` stamped automatically. Combined with a global `HasQueryFilter`, no service ever checks deletion state manually.
 
-### API Layer
-- **Unified response envelope** — every endpoint returns `Response<T>` with `data`, `isSuccess`, `statusCode`, and `errors`
-- **Global exception middleware** — custom exceptions derived from `BaseException` carry their own HTTP status codes; unexpected errors return a consistent 500 payload
-- **Centralized constants** — `ErrorMessages` and `FilePaths` keep magic strings out of business code
-- **File storage service** — image upload with extension whitelist, size limit, Guid-based file names, and folder separation under `wwwroot/uploads`
-- Startup extension creates required storage folders automatically
+**Exceptions carry their own status codes.** The Domain defines `BaseException(message, statusCode)`; concrete exceptions *are* their HTTP semantics (`ConflictException` → 409). The global middleware is only a translator — no HTTP concepts leak into services.
 
-## Getting Started
+**DDD style — with honest boundaries.** No aggregates or bounded contexts are claimed at this scale. What is applied is the tactical side: private setters, guarded constructors, behavior methods (`UpdateFullName`, `UpdateImageUrl`) that validate invariants. A template sets the standard every future project inherits.
 
-### Prerequisites
-- .NET 9 SDK
-- SQL Server (LocalDB or full instance)
+**No hand-rolled repository.** EF Core's `DbSet` already implements the repository / unit-of-work patterns. The `IAppDbContext` interface keeps the Application layer decoupled without ceremonial abstraction — knowing when *not* to apply a pattern is part of the design.
 
-### Setup
+**Identity comes from the token, not the route.** All self-service profile endpoints resolve the user via `ClaimTypes.NameIdentifier` from the JWT. A route-supplied id would let a user change someone else's password; the token says who you are — you don't get to choose.
 
-1. Clone the repository:
+**Strict token expiry.** JWT validation uses `ClockSkew = TimeSpan.Zero` — no default 5-minute grace window; expired means expired.
+
+---
+
+## 🔌 API Endpoints
+
+### Auth — `api/Auth` (anonymous)
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/Register` | Register a new user (default role `User`), returns JWT |
+| POST | `/Login` | Lockout-aware login, returns JWT |
+| POST | `/Logout` | Stateless logout (client discards token) |
+
+### Profile — `api/Profile` (any authenticated user, id from JWT)
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/Me` | Current user's profile (name, email, avatar, roles) |
+| PUT | `/` | Update full name |
+| PATCH | `/Password` | Change password (current + new) |
+| POST | `/` | Upload avatar (`multipart/form-data`, key: `file`) |
+| DELETE | `/` | Reset avatar to default image |
+
+### Users — `api/User` (requires `Admin` role)
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/` | List all users with roles (single-query projection) |
+| GET | `/{id}` | Get a single user |
+| PATCH | `/{id}` | Replace the user's role |
+| DELETE | `/{id}` | Soft-delete the user |
+
+Every response uses the same envelope:
+
+```json
+{
+  "data": { },
+  "isSuccess": true,
+  "statusCode": 200,
+  "errors": null
+}
+```
+
+---
+
+## 🚀 Getting Started
+
+**Prerequisites:** .NET 9 SDK · SQL Server LocalDB (ships with Visual Studio)
+
 ```bash
-git clone https://github.com/<your-username>/OnionSetUp.git
-cd OnionSetUp
+git clone https://github.com/vusal016/Onion-SetUp.git
+cd Onion-SetUp
+dotnet run --project src/Presentation/OnionSetUp.WebAPI
 ```
 
-2. Configure `appsettings.json` in `OnionSetUp.WebAPI`:
+That's it — on first run the app **applies migrations and seeds roles + admin automatically**. No manual `database update` required.
+
+Configuration lives in `appsettings.json`:
+
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=OnionSetUpDb;Trusted_Connection=True;TrustServerCertificate=True"
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=OnionSetUpDb;Trusted_Connection=True;MultipleActiveResultSets=true"
   },
   "JwtSettings": {
     "SecretKey": "your-secret-key-at-least-32-characters-long",
@@ -88,70 +192,42 @@ cd OnionSetUp
 }
 ```
 
-3. Run the API:
-```bash
-dotnet run --project src/Presentation/OnionSetUp.WebAPI
-```
+In Development the OpenAPI document is available at `/openapi/v1.json` (native .NET 9 generator).
 
-Migrations and seed data are applied automatically on first run — no manual `database update` needed.
+---
 
-API documentation is available at `http://localhost:5000/scalar/v1` in development.
-
-### Default Admin Account
+## 🔑 Default Accounts & Policies
 
 | Email | Password | Role |
 |---|---|---|
-| `admin@gmail.com` | `Admin123!` | Admin |
+| `admin@gmail.com` | `salam123` | Admin |
 
-> Change these credentials before any real deployment.
+> ⚠️ Seeded for demo purposes — change these credentials before any real deployment.
 
-## API Endpoints
+**Password policy:** minimum 8 characters, at least one digit · unique email required
+**Lockout policy:** 5 failed attempts → 5-minute lockout
 
-### Auth — `api/auth`
+---
 
-| Method | Endpoint | Auth | Description |
-|---|---|---|---|
-| POST | `/register` | — | Register a new user, returns JWT |
-| POST | `/login` | — | Authenticate, returns JWT |
-| POST | `/logout` | ✅ | Logout (client discards token) |
-| GET | `/me` | ✅ | Current user info from token claims |
+## 🗺 Roadmap
 
-### Admin — `api/admin/users` (requires `Admin` role)
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/` | List all users with roles |
-| GET | `/{id}` | Get a single user |
-| PATCH | `/{id}/role` | Replace the user's role |
-| DELETE | `/{id}` | Soft-delete the user |
-
-All responses share the same envelope:
-
-```json
-{
-  "data": { },
-  "isSuccess": true,
-  "statusCode": 200,
-  "errors": []
-}
-```
-
-## Design Decisions
-
-- **Task-based endpoints for users** — user fields follow different rules (roles are admin-controlled, profile is self-service, passwords need hashing flows), so instead of one generic `Update`, each intent gets its own endpoint (`/role`, `/me`). Classic full-DTO CRUD remains the right choice for uniform entities.
-- **No repository layer** — EF Core's `DbSet` already implements the repository/unit-of-work patterns; `IAppDbContext` keeps the Application layer decoupled without an extra abstraction.
-- **Stateless logout** — JWT cannot be revoked server-side without giving up statelessness; logout is a client-side token discard. Refresh-token rotation is the planned production path (see Roadmap).
-- **Interceptor over overridden `SaveChanges`** — cross-cutting persistence concerns (audit, soft delete) live in one `SaveChangesInterceptor`, keeping the DbContext clean.
-
-## Roadmap
-
-- [ ] Refresh token pattern (short-lived access + revocable refresh tokens)
-- [ ] Result pattern for expected business failures
-- [ ] Pagination, filtering, and sorting for list endpoints
+- [ ] FluentValidation pipeline integration (validators are registered; auto-enforcement is next)
+- [ ] Refresh token rotation (short-lived access + revocable refresh tokens)
+- [ ] Unit & integration tests (xUnit)
 - [ ] CQRS + MediatR with validation pipeline behavior
-- [ ] Unit and integration tests (xUnit, Testcontainers)
+- [ ] API versioning & Swagger UI
 - [ ] Docker support
 
-## License
+---
+
+## 📄 License
 
 MIT — free to use as a starting point for your own projects.
+
+## 👤 Author
+
+**Vusal Mammadov** — .NET Backend Developer
+
+[![GitHub](https://img.shields.io/badge/GitHub-vusal016-181717?logo=github)](https://github.com/vusal016)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vusalmemmedov-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/vusalmemmedov)
+[![Email](https://img.shields.io/badge/Email-mvusal316%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:mvusal316@gmail.com)
