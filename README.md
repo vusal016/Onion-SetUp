@@ -209,17 +209,6 @@ In Development the OpenAPI document is available at `/openapi/v1.json` (native .
 
 ---
 
-## 🗺 Roadmap
-
-- [ ] FluentValidation pipeline integration (validators are registered; auto-enforcement is next)
-- [ ] Refresh token rotation (short-lived access + revocable refresh tokens)
-- [ ] Unit & integration tests (xUnit)
-- [ ] CQRS + MediatR with validation pipeline behavior
-- [ ] API versioning & Swagger UI
-- [ ] Docker support
-
----
-
 ## 📄 License
 
 MIT — free to use as a starting point for your own projects.
