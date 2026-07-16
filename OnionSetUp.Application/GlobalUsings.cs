@@ -7,3 +7,6 @@ global using OnionSetUp.Application.Common.Mapper;
 global using Microsoft.AspNetCore.Http;
 global using OnionSetUp.Application.Common.Constants;   
 global using OnionSetUp.Application.Common.Identity;
+global using OnionSetUp.Application.Common.Dtos.ServiceDtos;
+global using Microsoft.AspNetCore.Identity;
+global using OnionSetUp.Application.Common.Dtos.ProfileDtos;

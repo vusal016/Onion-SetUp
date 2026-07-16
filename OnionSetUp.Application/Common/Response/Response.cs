@@ -7,24 +7,24 @@
             
         }
         public T Data { get; private set; }
-        public bool IsSucces { get; private set; }
+        public bool IsSuccess { get; private set; }
         public int StatusCode { get; private set; }
         public IReadOnlyList<string> Errors { get; private set; }
 
-        public static Response<T> Succes(T data, int statusCode)
+        public static Response<T> Success(T data, int statusCode)
         {
             return new Response<T>()
             {
-                IsSucces=true,
+                IsSuccess=true,
                 Data=data,
                 StatusCode=statusCode,
             };
         }
-        public static Response<T> Succes(int statusCode)
+        public static Response<T> Success(int statusCode)
         {
             return new Response<T>()
             {
-                IsSucces=true,
+                IsSuccess=true,
                 StatusCode=statusCode
             };
         }
@@ -32,7 +32,7 @@
         {
             return new Response<T>()
             {
-               IsSucces=false,
+               IsSuccess=false,
                Errors=new List<string>(errors),
                StatusCode=statusCode
             };
@@ -41,8 +41,9 @@
         {
             return new Response<T>()
             {
-                IsSucces=false,
-                Errors=new List<string>{ error}
+                IsSuccess=false,
+                Errors=new List<string>{ error},
+                StatusCode= statusCode
             };
         }
     }

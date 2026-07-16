@@ -29,7 +29,7 @@
         }
         public Task<bool> DeleteImageAsync(string imageUrl)
         {
-            if (string.IsNullOrWhiteSpace(imageUrl) || imageUrl == "default-product.jpg")
+            if (string.IsNullOrWhiteSpace(imageUrl) || imageUrl == FilePaths.DefaultImage)
                 return Task.FromResult(true);
             var relativePath = imageUrl.TrimStart('/');
             var physicalPath = Path.Combine(environment.WebRootPath, relativePath);

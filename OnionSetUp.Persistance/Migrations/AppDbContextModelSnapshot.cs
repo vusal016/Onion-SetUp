@@ -184,6 +184,11 @@ namespace OnionSetUp.Persistence.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 

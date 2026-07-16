@@ -17,9 +17,9 @@
   },
   {
     "ContainingType": "OnionSetUp.WebAPI.Controllers.AuthController",
-    "Method": "Me",
-    "RelativePath": "api/Auth/Me",
-    "HttpMethod": "GET",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/Logout",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
@@ -36,6 +36,137 @@
       {
         "Name": "request",
         "Type": "OnionSetUp.Application.Common.Identity.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.ProfileController",
+    "Method": "DeleteImage",
+    "RelativePath": "api/Profile",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.ProfileController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProfile",
+        "Type": "OnionSetUp.Application.Common.Dtos.ProfileDtos.UpdateProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.ProfileController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Profile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.ProfileController",
+    "Method": "Me",
+    "RelativePath": "api/Profile/Me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.ProfileController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Profile/Password",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePassword",
+        "Type": "OnionSetUp.Application.Common.Dtos.ProfileDtos.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.UserController",
+    "Method": "ChangeRole",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "roleRequest",
+        "Type": "OnionSetUp.Application.Common.Dtos.ServiceDtos.ChangeRoleRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionSetUp.WebAPI.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

@@ -1,6 +1,4 @@
-﻿using OnionSetUp.Infrastructure.Services;
-
-namespace OnionSetUp.Infrastructure
+﻿namespace OnionSetUp.Infrastructure
 {
     public static class DependencyInjection
     {
@@ -40,8 +38,11 @@ namespace OnionSetUp.Infrastructure
                 };
             });
             services.AddScoped<IIdentityService, IdentityService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IProfileService, ProfileService>();
             services.AddScoped<IFileStorageService, FileStorageService>();
             services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
+           
             return services;
         }
     }

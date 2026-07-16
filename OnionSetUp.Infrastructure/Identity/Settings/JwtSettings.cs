@@ -6,6 +6,6 @@
         public string SecretKey { get; init; } = string.Empty;
         public string Issuer { get; init; } = string.Empty;
         public string Audience { get; init; } = string.Empty;
-        public int ExExprationInMinutes { get; init; } = 30;
+        public int ExpirationInMinutes { get; init; } = 30;
     }
 }

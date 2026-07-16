@@ -1,5 +1,3 @@
-using OnionSetUp.WebAPI.Middlewares;
-
 namespace OnionSetUp.WebAPI
 {
     public class Program

@@ -15,3 +15,11 @@ global using System.Text;
 global using Microsoft.AspNetCore.Authentication.JwtBearer;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.DependencyInjection;
+global using OnionSetUp.Infrastructure.Services;
+global using AutoMapper;
+global using OnionSetUp.Application.Common.Dtos.ProfileDtos;
+global using OnionSetUp.Domain.Exceptions;
+global using Microsoft.EntityFrameworkCore;
+global using OnionSetUp.Application.Common.Dtos.ServiceDtos;
+
+    

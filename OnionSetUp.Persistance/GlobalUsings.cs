@@ -10,4 +10,5 @@ global using OnionSetUp.Application.Common.Interfaces;
 global using OnionSetUp.Persistence.Interceptors;
 global using Microsoft.EntityFrameworkCore.Diagnostics;
 global using OnionSetUp.Domain.Common;
+global using OnionSetUp.Application.Common.Constants;
 
